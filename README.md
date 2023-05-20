@@ -14,14 +14,27 @@ Poll App is a user-friendly platform that empowers you to create and post polls,
 
 # Getting Started
 
-To get started with Poll App, follow these steps:
-
 1. Clone the repository:
 ```
-git clone https://github.com/your-username/poll-app.git)
+git clone https://github.com/dk14-git/Online_Poll_App
+```
+2. Set up the database:
+
+```
+python manage.py migrate
 ```
 
-3. Install the necessary dependencies:
-4. Set up the database:
-5. Start the development server:
-6. Access Poll App in your web browser:
+3. Start the development server:
+
+```
+python manage.py runserver
+```
+
+# Contributing
+We welcome contributions from the community to enhance Poll App. To contribute, please follow these guidelines:
+
+Fork the repository.
+1. Create a new branch for your feature or bug fix.
+2. Commit your changes and push the branch to your forked repository.
+3. Submit a pull request with a detailed description of your changes.
+
