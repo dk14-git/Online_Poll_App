@@ -54,3 +54,5 @@ def results(request, poll_id):
         'poll' : poll
     }
     return render(request, 'poll/results.html', context)
+def index(request):
+    return render(request, 'poll/index.html')
