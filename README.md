@@ -17,7 +17,9 @@ Poll App is a user-friendly platform that empowers you to create and post polls,
 To get started with Poll App, follow these steps:
 
 1. Clone the repository:
-code(git clone https://github.com/your-username/poll-app.git)
+'''
+git clone https://github.com/your-username/poll-app.git)
+'''
 
 3. Install the necessary dependencies:
 4. Set up the database:
